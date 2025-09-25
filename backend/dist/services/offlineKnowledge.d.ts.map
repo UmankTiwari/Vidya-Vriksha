@@ -1,0 +1,1 @@
+{"version":3,"file":"offlineKnowledge.d.ts","sourceRoot":"","sources":["../../src/services/offlineKnowledge.ts"],"names":[],"mappings":"AAAA,UAAU,aAAa;IACrB,QAAQ,EAAE,MAAM,CAAC;IACjB,MAAM,EAAE,MAAM,CAAC;IACf,QAAQ,EAAE,MAAM,CAAC;IACjB,QAAQ,EAAE,MAAM,EAAE,CAAC;CACpB;AAkBD,eAAO,MAAM,oBAAoB;sBACP,MAAM,YAAY,MAAM;;;;CAWjD,CAAC;AAEF,YAAY,EAAE,aAAa,EAAE,CAAC"}
