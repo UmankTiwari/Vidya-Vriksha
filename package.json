@@ -4,17 +4,30 @@
   "description": "A gamified, bilingual learning platform for rural students in India",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm run dev",
     "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
-    "build": "cd frontend && npm run build && cd ../backend && npm run build",
-    "start": "cd backend && npm start"
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": ["education", "gamification", "bilingual", "rural", "india"],
+  "keywords": [
+    "education",
+    "gamification",
+    "bilingual",
+    "rural",
+    "india"
+  ],
   "author": "Vidya Vriksha Team",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@svgr/webpack": "8.1.0",
+    "postcss": "8.5.6",
+    "svgo": "4.0.0",
+    "webpack-dev-server": "5.2.2"
   }
 }
